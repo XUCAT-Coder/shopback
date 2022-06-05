@@ -1,8 +1,6 @@
 
 module.exports = {
-  outputDir: '/',
   assetsDir:'static',
-  publicPath:'',
   configureWebpack: {
     resolve: {
       alias: {
