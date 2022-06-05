@@ -1,6 +1,6 @@
 
 module.exports = {
-  outputDir: 'dark',
+  outputDir: '/',
   assetsDir:'static',
   publicPath:'',
   configureWebpack: {
