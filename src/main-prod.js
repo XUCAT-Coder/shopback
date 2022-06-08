@@ -23,7 +23,7 @@ app.config.globalProperties.$http = axios
 app.config.globalProperties.$message = ElMessage
 app.config.globalProperties.$confirm = ElMessageBox
 app.use(store).use(router).use(ElementPlus).mount('#app')
-axios.defaults.baseURL = 'https://lianghj.top:8888/api/private/v1/'
+axios.defaults.baseURL = '/dark_p/'
 axios.interceptors.request.use(
   (config) => {
     config.headers.Authorization = window.sessionStorage.getItem('token')
