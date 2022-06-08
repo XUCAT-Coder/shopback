@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/dark_p/(.*)",
-      "destination": "/dark_p/proxy"
+      "source": "/api/(.*)",
+      "destination": "/api/proxy"
     }
   ]
 }
